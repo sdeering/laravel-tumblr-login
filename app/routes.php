@@ -17,10 +17,10 @@ Route::get('login', 'HomeController@showLogin');
 
 //testing different oauth packages
 Route::get('test1', 'JESSENGERSController@test'); // JESSENGERS
-Route::get('test2', 'artdarekController@testfb'); // artdarek
-Route::get('test3', 'artdarekController@testtumblr'); // artdarek
 
-
+//working examples
+Route::get('facebook', 'artdarekController@testfb'); // artdarek
+Route::get('tumblr', 'artdarekController@testtumblr'); // artdarek
 
 /*
 
